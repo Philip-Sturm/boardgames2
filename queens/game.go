@@ -18,6 +18,8 @@ func NewGame() *Game {
 // Get liefert den Inhalt der Zelle an der angegebenen Position zurück.
 // Liefert einen leeren String, falls die Position außerhalb des Spielfelds liegt.
 func (g *Game) Get(row, col int) string {
+	// Hinweis:
+	// Verwenden Sie die Get-Methode des Boards, um den Inhalt der Zelle zu erhalten.
 	return g.board.Get(row, col)
 }
 
